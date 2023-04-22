@@ -1,0 +1,280 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+html {
+  font-size: 10px;
+
+  --bg-color: #8a2b8a;
+  --text-color: #ec5242;
+  --bg-color1: #d3d3d3;
+  --font-family: "Lato", sans-serif;
+  --font-Coco: "COCOGOOSE", sans-serif;
+}
+
+.col-10  {
+  background-image: url(image/gr-stocks-Iq9SaJezkOE-unsplash.jpg);
+  background-color: var(--bg-color);
+  background-size: cover;
+}
+
+.header-sec {
+  padding: 0;
+}
+
+
+
+.mobile {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.x-circle-fill {
+  position: fixed;
+  top: 35px;
+  right: 25px;
+  background-color: #fff;
+}
+
+.mobile {
+  background-color: var(--bg-color);
+  padding: 25px;
+  padding-top: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mobile a {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+section.visible {
+  display: block;
+}
+
+/* Upperside */
+.upperside {
+  display: none;
+}
+
+.desktop-navbar {
+  display: none;
+}
+
+.intro-content {
+  background-image: url(images/header-bg.png);
+  background-position-y: 213px;
+}
+
+.intro-head {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  margin-bottom: 0.1rem;
+  color: rgba(255, 30, 5, 0.8);
+  
+}
+
+.intro-head1 {
+  color: #ed3833;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  line-height: 30px;
+  margin-bottom: 1rem;
+ 
+}
+
+.intro-info {
+  padding: 1.2rem;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: justify;
+  background-color: #f8f8f8;
+  font-family: "Lato", sans-serif;
+  color: #606060;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 1.2rem 0;
+}
+
+.intro-info2 {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  color: #606060;
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 700;
+}
+
+.intro-info3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.mb-4 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: goldenrod;
+}
+
+
+.w-50  {
+  background-color: #8a2b8a;
+}
+
+.card img {
+ margin-left: 12rem;
+}
+
+.about-section h1 {
+  font-weight: 600;
+  margin-left: 2rem;
+}
+
+.about-section p {
+  font-weight: 400;
+  color:var(--bg-color)  ;
+}
+
+.container h2 {
+  margin-left: 12rem;
+ 
+}
+
+.title {
+  margin-left: 13rem;
+  font-weight: 500;
+  font-size: medium;
+  color:var(--bg-color);
+}
+
+.email {
+  font-weight: 500;
+  
+}
+
+.button {
+  background-color: #ec5242;
+}
+
+.P-text {
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+.card img {
+  margin-left: 25rem;
+  height: 28rem;
+ }
+
+ .about-section h1 {
+  font-weight: 600;
+  margin-left: 10rem;
+}
+
+.about-section p {
+  font-weight: 500;
+  color:var(--bg-color);
+  padding: 2rem;
+}
+
+.container h2 {
+  margin-left: 29rem;
+}
+
+.title {
+  margin-left: 30rem;
+  font-weight: 500;
+  font-size: medium;
+  color:var(--bg-color);
+}
+
+.email {
+  font-weight: 500;
+  
+}
+
+.button {
+  background-color: #ec5242;
+}
+
+.P-text {
+  font-weight: 500;
+}
+
+
+
+
+
+  
+
+
+
+ .events-container {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .article-info {
+    font-size: 1.2rem;
+    color: #616e84;
+  }
+
+  .title-about {
+    color: #272a31;
+  }
+
+  .events-paragragh {
+    font-size: 1.2rem;
+  }
+
+  .logo-events {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+
+  .event2 {
+    width: auto;
+    height: auto;
+  }
+
+  .event1 {
+    width: auto;
+    height: auto;
+  }
+}
