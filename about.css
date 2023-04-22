@@ -26,18 +26,6 @@ html {
   padding: 0;
 }
 
-
-
-.mobile {
-  display: block;
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
 .x-circle-fill {
   position: fixed;
   top: 35px;
@@ -46,6 +34,9 @@ html {
 }
 
 .mobile {
+  display: block;
+  position: absolute;
+  z-index: 1;
   background-color: var(--bg-color);
   padding: 25px;
   padding-top: 70px;
