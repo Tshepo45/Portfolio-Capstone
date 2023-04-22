@@ -16,26 +16,8 @@ html {
   --font-Coco: "COCOGOOSE", sans-serif;
 }
 
-.col-10  {
-  background-image: url(image/gr-stocks-Iq9SaJezkOE-unsplash.jpg);
-  background-color: var(--bg-color);
-  background-size: cover;
-}
-
 .header-sec {
   padding: 0;
-}
-
-
-
-.mobile {
-  display: block;
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
 }
 
 .x-circle-fill {
@@ -46,15 +28,17 @@ html {
 }
 
 .mobile {
+  display: block;
+  position: fixed;
+  z-index: 1;
   background-color: var(--bg-color);
   padding: 25px;
   padding-top: 70px;
-  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  display: none;
+  
 }
 
 .mobile-links {
@@ -71,6 +55,11 @@ html {
   line-height: 2.2rem;
   margin-bottom: 1.5rem;
   text-decoration: none;
+  color: #f8f8f8;
+}
+
+.contact-text {
+  font-weight: 600;
   color: #f8f8f8;
 }
 
@@ -147,7 +136,9 @@ section.visible {
 }
 
 .card img {
+  margin-top: 32px;
  margin-left: 12rem;
+ width: 35%;
 }
 
 .about-section h1 {
@@ -185,19 +176,12 @@ section.visible {
   font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
 
 .card img {
   margin-left: 25rem;
   height: 28rem;
+  width: 35% ;
  }
 
  .about-section h1 {
@@ -236,14 +220,7 @@ section.visible {
 }
 
 
-
-
-
-  
-
-
-
- .events-container {
+.events-container {
     flex-direction: row;
     gap: 10px;
   }

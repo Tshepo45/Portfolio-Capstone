@@ -38,8 +38,9 @@ Html,javascript,bootstrap,Css,git and github.
 To understand how to create UIs adaptable to different screen sizes using media queries,javascript dynamically creating elements,and bootstrap framework.
 
 
-## Live Demo
-https://tshepo45.github.io/Portfolio-Capstone/
+## Live loom Video
+https://www.loom.com/share/74063394a19f4454959be1ecd0eb1f98
+
 
 ## 💻 Getting Started 
 
