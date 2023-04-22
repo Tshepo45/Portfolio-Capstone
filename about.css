@@ -16,12 +16,6 @@ html {
   --font-Coco: "COCOGOOSE", sans-serif;
 }
 
-.col-10  {
-  background-image: url(image/gr-stocks-Iq9SaJezkOE-unsplash.jpg);
-  background-color: var(--bg-color);
-  background-size: cover;
-}
-
 .header-sec {
   padding: 0;
 }
@@ -61,6 +55,11 @@ html {
   line-height: 2.2rem;
   margin-bottom: 1.5rem;
   text-decoration: none;
+  color: #f8f8f8;
+}
+
+.contact-text {
+  font-weight: 600;
   color: #f8f8f8;
 }
 
@@ -221,14 +220,7 @@ section.visible {
 }
 
 
-
-
-
-  
-
-
-
- .events-container {
+.events-container {
     flex-direction: row;
     gap: 10px;
   }
