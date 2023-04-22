@@ -26,18 +26,17 @@ body {
 }
 
 .mobile {
-  display: block;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   background-color: var(--bg-color);
   padding: 25px;
   padding-top: 70px;
-  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   display: none;
+  
 }
 
 .x-circle-fill {
@@ -290,7 +289,6 @@ section.visible {
   height: 140px;
   width: 140px;
   object-fit: contain;
-  position: center center;
 }
 
 .speaker-bio {
@@ -380,7 +378,6 @@ nav {
 .desktop-nav {
   border: 1px solid red;
   text-decoration: none;
-  text-shadow: #8a2b8a;
   font-weight: 700;
 }
 

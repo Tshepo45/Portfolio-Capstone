@@ -1,4 +1,3 @@
-const body = document.querySelector('body');
 const cross = document.getElementById('menu-close-btn');
 const mobileSec = document.querySelector('.mobile');
 const closeCross = document.getElementById('close-btn');
